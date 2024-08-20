@@ -2,6 +2,4 @@ pypdf
 langchain
 langchain_community
 streamlit
-tempfile
-os
 tiktoken
