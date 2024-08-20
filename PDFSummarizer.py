@@ -7,7 +7,7 @@ import tempfile
 
 # Setup OpenAI API
 os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
-llm = OpenAI(model_name="gpt-4-turbo", temperature=0)
+llm = OpenAI(model_name="gpt-4o-mini", temperature=0)
 
 # Function to summarize PDFs from a folder
 
