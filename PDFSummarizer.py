@@ -52,7 +52,7 @@ pdf_files = st.file_uploader(
 # If PDFs are uploaded, display the summary generation button with a themed button
 if pdf_files:
     if st.button("Generate Summary 🔥", help="Click to generate summaries for your PDFs"):
-        st.write("Here's the summarize, enjoy 😉:")
+        st.write("Here's the summary, enjoy 😉:")
         summaries = summarize_pdfs_from_folder(pdf_files)
         for i, summary in enumerate(summaries):
             st.write(f"### Summary for PDF {i+1}:")
